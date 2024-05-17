@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class Dos {
+
+	public static void main(String[] args) {
+		int numeroUsuario=0;
+		
+		numeroUsuario=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+		while (numeroUsuario !=4) {
+			System.out.println("prueba");
+		}
+
+	}
+
+}

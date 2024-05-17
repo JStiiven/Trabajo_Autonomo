@@ -1,0 +1,16 @@
+import java.util.HashMap;
+
+public class Uno {
+
+	public static void main(String[] args) {
+		HashMap<String, String> nombres = new HashMap<String, String>();
+		
+		nombres.put("Stiven", "Ortega");
+		nombres.put("Kevin", "Ortega");
+		nombres.put("Tania", "Garcia");
+		
+		System.out.println(nombres);
+
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Uno {
+
+	public static void main(String[] args) {
+		String [] datosSistema = {"Hola ", "Soy ", "Stiven ", ":)"};
+		System.out.println(0);
+	}
+
+}

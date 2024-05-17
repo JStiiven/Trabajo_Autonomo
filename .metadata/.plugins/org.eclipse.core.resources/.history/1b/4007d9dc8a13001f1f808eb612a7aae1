@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+
+public class Uno {
+
+	public static void main(String[] args) {
+		String pregunta = "";
+		boolean entrada = false;
+		do {
+			pregunta=JOptionPane.showInputDialog("quieres salir? Si/No").toLowerCase();
+			p
+		} while (pregunta != "no");
+	}
+
+}

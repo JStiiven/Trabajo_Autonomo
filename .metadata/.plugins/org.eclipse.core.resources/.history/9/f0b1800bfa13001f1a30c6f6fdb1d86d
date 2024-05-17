@@ -1,0 +1,18 @@
+import java.util.Arrays;
+import java.util.Hashtable;
+
+public class Uno {
+
+	public static void main(String[] args) {
+		Hashtable<Integer, String> tablaNombres=new Hastable <Integer,String>();
+
+		tablaNombres.put(233, "Stiven Ortega");
+		tablaNombres.put(34, "Sofia");
+		tablaNombres.put(666, "Dana sofia");
+
+		System.out.println(tablaNombres);
+		System.out.println(tablaNombres.get(666));
+		System.out.println(tablaNombres.size());
+	}
+
+}

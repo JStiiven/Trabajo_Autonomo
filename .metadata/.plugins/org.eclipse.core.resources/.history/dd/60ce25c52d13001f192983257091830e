@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class Uno {
+
+	public static void main(String[] args) {
+		int num1=0,num2=0,sum=0;
+		boolean entrada= false;
+		do {
+			num1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero a sumar"));
+			num2=Integer.parseInt(JOptionPane.showInputDialog("Ingrese otro numero a sumar"));
+			sum=num1+num2;
+			System.out.println(sum);
+		} while (!entrada);
+			System.out.println("Ingrese tipo dato int");
+	}
+
+}
